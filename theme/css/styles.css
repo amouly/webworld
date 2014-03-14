@@ -518,9 +518,9 @@ div#footer > .container {
 
 .portfolio .project-item {
     padding: 0;
-    border-right: 1px #e1e1e1 solid;
-    border-bottom: 1px #e1e1e1 solid;
+    border: 1px #e1e1e1 solid;
     display: inline-block;
+    margin: 0 0 -1px -1px;
 }
 
 .portfolio .project-item .thumbnail {
