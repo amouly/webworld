@@ -189,16 +189,6 @@ body {
     text-align: center;
 }
 
-.boxes-container .box-image {
-    border: 1px #e1e1e1 solid;
-    border-bottom: 0;
-    border-radius: 5px;
-    border-bottom-right-radius: 0;
-    border-bottom-left-radius: 0;
-    height: 128px;
-    width: 321px;
-}
-
 .projects-container .thumbnail {
     border-radius: 0;
     border: 0;
@@ -245,6 +235,21 @@ p.home-introduction {
     line-height: 2.5;
 }
 
+.boxes-container .box-image {
+    border: 1px #e1e1e1 solid;
+    border-bottom: 0;
+
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
+    
+    
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 128px;
+    width: 321px;
+}
 
 /* DIVIDER
 -------------------------------------------------- */
@@ -428,7 +433,10 @@ div#footer > .container {
 }
 
 .contacts-container .badge-container {
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
+    -khtml-border-radius: 50%;
     background-color: #71b6d5;
     color: #fff;
     width: 63px;
