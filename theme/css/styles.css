@@ -338,11 +338,12 @@ p.home-introduction {
     list-style: none;
 }
 
-#bottom-bar ul.contact-data li {
+#bottom-bar ul.contact-data > li {
     color: #fff;
     font-family: openSansRegular;
     font-size: 13.5px;
     margin-bottom: 10px;
+    vertical-align: top;
 }
 
 #bottom-bar ul.contact-data .fa {
@@ -417,6 +418,10 @@ div#footer > .container {
     list-style: none;
     margin: 0;
     padding: 0;
+}
+
+#footer ul li {
+    padding-left: 0;
 }
 
 #footer ul li a {
