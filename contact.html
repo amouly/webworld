@@ -45,31 +45,28 @@
         <!-- HEADER -->
         <div id="header" class="contact">
             <div class="container">
-                <p>Elegant Designs</p>
-                <p>Loram lipsum</p>
+
             </div>
         </div>
         <!-- MAP -->
         <div id="map-container">
         </div>
         <!--  MAIN CONTENT-->
-        <div class="container marketing">
+        <div id="main-container" class="container">
             <!-- SEPARATOR -->
-            <div class="hr-container">
-                <div class="icon-container">
-                    <span class="glyphicon glyphicon-map-marker"></span>
+            <div class="hr-large">
+                <div class="icon-container item-nobg-colored">
+                    <span class="fa fa-map-marker"></span>
                 </div>
-                <hr class="featurette-divider">
-                <span>Our <b>contact info</b></span>
+                <h2>Our <b>contact info</b></h2>
             </div>
             
-            
-            
+            <!--
 <div id="map" class="fluid-wrapper">
       <iframe src="https://mapsengine.google.com/map/embed?mid=zt6E5RCnFHRM.kffrTOWjlJ5c" width="640" height="480"></iframe>   
     </div>            
             
-            
+            -->
             
             
             <!-- Four columns of contact -->
@@ -111,33 +108,52 @@
                     </div>
                 </div>
             </div>
+ 
+            
             <!-- SEPARATOR -->
-            <div class="hr-container">
-                <div class="icon-container">
+            <div class="hr-large">
+                <div class="icon-container item-nobg-colored">
                     <span class="fa fa-envelope"></span>
                 </div>
-                <hr class="featurette-divider">
-                <span>Contact <b>form</b></span>
-            </div>
+                <h2>Contact <b>form</b></h2>
+            </div>            
+            
+            <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Name" />
+                    </div>
+                    <div class="col-md-6">
+                        <input type="text" class="form-control" placeholder="Email" />
+                    </div>
+                    <div class="col-md-12">
+                        <textarea class="form-control" placeholder="Your message"></textarea>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-general">Submit</button>
+                    </div>
+                </div>
+            </form>
+            
         </div>
         <!-- BOTTOM BAR -->
         <div id="bottom-bar">
             <div class="container">
                 <div class="row">
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                         <span class="logo">Webworld</span>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of.</p>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                         <span class="header">Contact</span>
                         <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in so</p>
                         <ul class="contact-data">
-                            <li><span class="glyphicon glyphicon-map-marker"></span>New Delhi</li>
-                            <li><span class="glyphicon glyphicon-envelope"></span>info@yourwebsite.com</li>
-                            <li><span class="glyphicon glyphicon-earphone"></span>890-09880-45590</li>
+                            <li><span class="fa fa-map-marker"></span>New Delhi</li>
+                            <li><span class="fa fa-envelope"></span>info@yourwebsite.com</li>
+                            <li><span class="fa fa-phone"></span>890-09880-45590</li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                         <span class="header">Latest tweets</span>
                         <ul>
                             <li>
@@ -150,7 +166,7 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="col-md-3">
+                    <div class="col-md-3 col-sm-6">
                         <span class="header">News letter</span>
                         <p>Type your email address below and recive our daily news letter for free</p>
                     </div>
@@ -171,6 +187,5 @@
         <!-- Bootstrap core JavaScript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
         <script src="theme/js/bootstrap.min.js"></script>
-        <script src="../../assets/js/docs.min.js"></script>
     </body>
 </html>
