@@ -195,7 +195,7 @@ body {
     padding: 0;
 }
 
-/* Introduction section */
+/* Introduction subsection */
 p.home-introduction {
     font-family: openSansRegular;
     font-size: 18px;
@@ -205,7 +205,7 @@ p.home-introduction {
     margin: 40px 0 40px 0;
 }
 
-/* Boxes section */
+/* Boxes subsection */
 .boxes-container .box-content {
     border: 1px #e1e1e1 solid;
     border-top: 0;
@@ -256,6 +256,11 @@ p.home-introduction {
     border-bottom-left-radius: 0;
     height: 128px;
     width: 321px;
+}
+
+.boxes-container .thumbnail {
+    -webkit-box-shadow: none;
+    box-shadow: none;
 }
 
 /* DIVIDER
