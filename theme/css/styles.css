@@ -425,7 +425,10 @@ div#footer > .container {
 }
 
 #footer ul li a {
+   -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     border-radius: 50%;
+    -khtml-border-radius: 50%;
     width: 30px;
     height: 30px;
     background-color: #2c3b42;
