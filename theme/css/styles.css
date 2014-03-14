@@ -222,10 +222,10 @@ p.home-introduction {
     border: 10px #fff solid;
     border-radius: 50%;
     
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    border-radius: 5px;
-    -khtml-border-radius: 5px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -khtml-border-radius: 50%;
     
     
     width: 84px;
