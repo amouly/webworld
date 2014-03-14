@@ -220,12 +220,11 @@ p.home-introduction {
 .boxes-container .icon-container {
     background-color: #71b6d5;
     border: 10px #fff solid;
-    border-radius: 50%;
     
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -khtml-border-radius: 50%;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+    -khtml-border-radius: 50px;
     
     
     width: 84px;
