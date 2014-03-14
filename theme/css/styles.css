@@ -221,6 +221,13 @@ p.home-introduction {
     background-color: #71b6d5;
     border: 10px #fff solid;
     border-radius: 50%;
+    
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
+    
+    
     width: 84px;
     height: 84px;
     color: #fff;
@@ -239,10 +246,10 @@ p.home-introduction {
     border: 1px #e1e1e1 solid;
     border-bottom: 0;
 
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
-    border-radius: 50%;
-    -khtml-border-radius: 50%;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    -khtml-border-radius: 5px;
     
     
     border-bottom-right-radius: 0;
