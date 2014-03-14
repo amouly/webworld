@@ -1,0 +1,586 @@
+/* GLOBAL STYLES
+-------------------------------------------------- */
+/* Padding below the footer and lighter body text */
+
+body {
+  background-color: #fff;
+  color: #5a5a5a;
+}
+
+@media (min-width: 1200px){
+    .container {
+        width: 1024px;
+    }
+}
+
+
+/* DEDICATED FONTS
+-------------------------------------------------- */
+@font-face {
+    font-family: pacificoFont;
+    src: url(../fonts/pacifico.ttf);
+}
+
+@font-face {
+    font-family: openSansRegular;
+    src: url(../fonts/OpenSans-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url(../fonts/OpenSans-Bold_0.ttf);
+}
+
+@font-face {
+    font-family: openSansSemiBold;
+    src: url(../fonts/OpenSans-Semibold_0.ttf);
+}
+
+/* NAVBAR
+-------------------------------------------------- */
+
+/* Special class on .container surrounding .navbar, used for positioning it into place. */
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
+}
+
+/* Flip around the padding for proper display in narrow viewports */
+.navbar-wrapper .container {
+  padding-right: 0;
+  padding-left: 0;
+}
+.navbar-wrapper .navbar {
+  padding-right: 15px;
+  padding-left: 15px;
+    border-bottom: 1px #7c7c7c solid;
+}
+
+.navbar-nav {
+    margin-top: 15px;
+}
+
+.navbar-header span#logo {
+    font-family: pacificoFont;
+    color: #fff;
+    font-size: 30px;
+    margin-top: 6px;
+}
+
+.main-menu {
+    padding-top: 22px;
+    padding-bottom: 22px;
+}
+
+.navbar-nav>li>a {
+    font-family: openSansRegular;
+    font-size: 14.5px;
+    color: #fff;
+    padding: 0;
+    margin-right: 35px;
+}
+.navbar-nav>li:last-child>a {
+    margin-right: 0;
+}
+
+.navbar-nav>li>a:hover {
+    background: none;
+    color: #ebebeb;
+}
+
+/* CAROUSEL
+-------------------------------------------------- */
+
+/* Carousel base class */
+.carousel {
+  height: 560px;
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  z-index: 10;
+    bottom: 90px;
+}
+
+.carousel-caption > h1 {
+    font-family: openSansBold;
+    font-size: 48px;
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 560px;
+}
+.carousel-inner {
+}
+
+.carousel-inner > .item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+ /* min-width: 100%; */
+  height: 560px;
+}
+
+.btn-slider {
+    background-color: #71b6d5;
+    color: #fff;
+    text-transform: uppercase;
+    font-family: openSansBold;
+    font-size: 17px;
+}
+
+/* HOME SECTION
+-------------------------------------------------- */
+
+/* Pad the edges of the mobile views a bit */
+.home {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.home .col-lg-4 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.home h2.header-boxes {
+  font-family: openSansSemiBold;
+    font-size: 20px;
+    margin-top: 0;
+    padding-top: 25px;
+}
+.home .col-lg-4 p {
+    margin-right: 30px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    color: #7c7770;
+    font-family: openSansRegular;
+    font-size: 13.5px;
+}
+
+.home .image-container {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-shadow: none;
+}
+
+/* Lastest Projects Subsection */
+.projects-container .project-image {
+    border-radius: 5px;
+}
+
+.project-content .project-header {
+    font-family: openSansSemiBold;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.project-content > p {
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    text-align: center;
+}
+
+.boxes-container .box-image {
+    border: 1px #e1e1e1 solid;
+    border-bottom: 0;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    height: 128px;
+    width: 321px;
+}
+
+.projects-container .thumbnail {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+}
+
+/* Introduction section */
+p.home-introduction {
+    font-family: openSansRegular;
+    font-size: 18px;
+    color: #575757;
+    padding: 0 40px;
+    text-align: center;
+    margin: 40px 0 40px 0;
+}
+
+/* Boxes section */
+.boxes-container .box-content {
+    border: 1px #e1e1e1 solid;
+    border-top: 0;
+    border-radius: 5px;
+    width: 321px;
+    height: 128px;
+    margin: auto;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
+.boxes-container .icon-container {
+    background-color: #71b6d5;
+    border: 10px #fff solid;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+    text-align: center;
+    vertical-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin: auto;
+    position: inherit;
+    top: 40px;
+}
+
+.boxes-container .icon-container > span {
+    display: block;
+    line-height: 2.5;
+}
+
+
+/* DIVIDER
+-------------------------------------------------- */
+
+.featurette-divider {
+    border-top: 1px #e1e1e1 solid;  
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+    line-height: 1;
+    letter-spacing: -1px;
+    font-family: openSansSemibold;
+    font-size: 20px;
+    
+}
+
+.hr-container {
+    margin: 70px 0 50px 0;
+}
+
+.hr-container .icon-container {
+    background-color: #71b6d5;
+    border: 24px #fff solid;
+    border-radius: 50%;
+    width: 81px;
+    height: 81px;
+    text-align: center;
+    color: #fff;
+    font-size: 15px;
+    margin: auto;
+    position: absolute;
+    margin-top: -40px;
+    left: 47%;
+}
+
+.hr-container .icon-container > span {
+    margin-top: 8px;
+    display: block;
+}
+
+.hr-container > span {
+    font-family: openSansRegular;
+    text-transform: uppercase;
+    color: #484848;
+    text-align: center;
+    display: block;
+    font-size: 22px;
+    padding-top: 15px;
+}
+
+.hr-container > span b {
+    font-family: openSansBold;
+}
+
+.featurette .lead {
+    font-family: openSansRegular;
+    font-size: 13.5px;
+}
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .home {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  .navbar-wrapper .container {
+
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 25px;
+    line-height: 1.4;
+    font-family: openSansRegular;
+  }
+
+  .featurette-heading {
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+  }
+}
+
+
+/* BOTTOM BAR
+-------------------------------------------------- */
+
+#bottom-bar {
+    background-color: #273a43;
+    margin-top: 40px;
+    padding: 70px 0 60px 0;
+}
+
+#bottom-bar > .container {
+    padding: 0;
+}
+
+#bottom-bar ul.contact-data {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#bottom-bar ul.contact-data li {
+    color: #fff;
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    margin-bottom: 10px;
+}
+
+#bottom-bar ul.contact-data .glyphicon {
+    color: #71b6d5;
+    font-size: 15px;
+    padding-right: 15px;
+}
+
+#bottom-bar .logo {
+    font-family: pacificoFont;
+    font-size: 22px;
+    color: #fff;
+    display: block;
+    margin-bottom: 20px;
+}
+
+#bottom-bar p {
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    color: #c3c3c3;
+}
+
+#bottom-bar span.header {
+    font-family: openSansRegular;
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+/* HEADER
+-------------------------------------------------- */
+
+#header {
+    background: #0e1828 url("../bitmaps/slider/slide1.jpg") no-repeat top center;
+}
+#header.contact, #header.portfolio {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+    padding: 0;
+}
+
+#header.home {
+}
+
+/* FOOTER
+-------------------------------------------------- */
+
+div#footer {
+    background-color: #172227;
+    padding: 35px 0;
+}
+
+div#footer > .container {
+    padding: 0;
+}
+
+#footer p {
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    color: #c4c4c4;
+    display: inline;
+}
+
+#footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#footer ul li a {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    background-color: #2c3b42;
+    color: #fff;
+    text-decoration: none;
+    padding-top: 6px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#footer ul li a:hover {
+    background-color: #71b6d5;
+}
+
+
+/* CONTACT SECTION
+-------------------------------------------------- */
+
+#map-container {
+    background: #cad9aa url(../bitmaps/contact-map.png) no-repeat center center;
+    height: 340px;
+    width: 100%;
+}
+
+.contacts-container .badge-container {
+    border-radius: 50%;
+    background-color: #71b6d5;
+    color: #fff;
+    width: 63px;
+    height: 63px;
+    margin: auto;
+    text-align: center;
+    font-size: 25px;
+}
+
+.contacts-container .badge-container > span{
+    line-height: 2.5;
+    font-size: 25px;
+}
+
+
+/* PORTFOLIO SECTION
+-------------------------------------------------- */
+
+#main-container.portfolio {
+    padding-right: 0;
+    padding-left: 0;
+    margin-top: 30px;
+}
+
+/* Portfolio Lateral Bar */
+.lateral-bar .logo {
+    font-family: pacificoFont;
+    font-size: 30px;
+    color: #3c3a37;
+    display: block;
+    text-align: center;
+    text-indent: -10px;
+}
+
+.lateral-bar {
+    border: 1px #e1e1e1 solid;
+    border-radius: 5px;
+    padding: 20px;
+    width: 276px;
+}
+
+/* Portfolio Content */
+.portfolio .main-content {
+    width: 721px;
+    margin-left: 303px;
+    margin-right: 0;
+}
+
+.portfolio .project-item {
+    padding: 0;
+    border-right: 1px #e1e1e1 solid;
+    width: 240px;
+    border-bottom: 1px #e1e1e1 solid;
+    display: inline-block;
+}
+
+
+
+.main-content .sub-content {
+    border: 1px #e1e1e1 solid;
+    border-right: 0px;
+    border-bottom: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/* Project Styles */
+.project-header {
+    padding: 15px;
+}
+
+.project-header > h2 {
+    font-family: openSansRegular;
+    font-size: 18px;
+    text-align: center;
+    color: #484848;
+    text-transform: uppercase;
+    margin: 4px 0;
+}
+
+.project-header > span {
+    font-family: openSansRegular;
+    font-size: 13px;
+    text-align: center;
+    color: #b2b2b2;
+    display: block;
+    text-transform: uppercase;
+}
+.lateral-bar .item-lateral-bar {
+    
+}
+.lateral-bar .item-lateral-bar h2 {
+    display: inline-block;
+    font-family: openSansRegular;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #000;
+    position: relative;
+    text-align: center;
+    top: 12px;
+    margin: 0 auto;
+    padding: 0 8px;
+    background: #fff;
+    position: relative;
+    top: -0.7em;
+}
+.lateral-bar .item-lateral-bar > div.hr {
+    margin: 0;
+    height: 1px;
+    background-color: #e1e1e1;
+    text-align: center;
+    border: 0;
+    margin: 35px 0;
+}
