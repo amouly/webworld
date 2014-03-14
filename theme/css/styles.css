@@ -368,10 +368,12 @@ p.home-introduction {
     margin-bottom: 10px;
 }
 
-#bottom-bar ul.contact-data .glyphicon {
+#bottom-bar ul.contact-data .fa {
     color: #71b6d5;
-    font-size: 15px;
-    padding-right: 15px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    margin-right: 15px;
 }
 
 #bottom-bar .logo {
