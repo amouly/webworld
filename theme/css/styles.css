@@ -143,7 +143,6 @@ body {
 }
 
 .home .col-lg-4 {
-  margin-bottom: 20px;
   text-align: center;
 }
 .home h2.header-boxes {
@@ -169,15 +168,19 @@ body {
 }
 
 /* Lastest Projects Subsection */
+.projects-container {
+    padding-top: 20px;
+}
+
 .projects-container .project-image {
     border-radius: 5px;
 }
 
-.project-content .project-header {
+.project-content > h2 {
     font-family: openSansSemiBold;
     font-size: 18px;
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .project-content > p {
@@ -230,13 +233,11 @@ p.home-introduction {
     border-radius: 50%;
     width: 84px;
     height: 84px;
-    text-align: center;
-    vertical-align: center;
     color: #fff;
     font-size: 25px;
     margin: auto;
-    position: inherit;
-    top: 40px;
+    position: relative;
+    top: 1.8em;
 }
 
 .boxes-container .icon-container > span {
@@ -261,48 +262,6 @@ p.home-introduction {
     
 }
 
-.hr-container {
-    margin: 70px 0 50px 0;
-}
-
-.hr-container .icon-container {
-    background-color: #71b6d5;
-    border: 24px #fff solid;
-    border-radius: 50%;
-    width: 81px;
-    height: 81px;
-    text-align: center;
-    color: #fff;
-    font-size: 15px;
-    margin: auto;
-    position: absolute;
-    margin-top: -40px;
-    left: 47%;
-}
-
-.hr-container .icon-container > span {
-    margin-top: 8px;
-    display: block;
-}
-
-.hr-container > span {
-    font-family: openSansRegular;
-    text-transform: uppercase;
-    color: #484848;
-    text-align: center;
-    display: block;
-    font-size: 22px;
-    padding-top: 15px;
-}
-
-.hr-container > span b {
-    font-family: openSansBold;
-}
-
-.featurette .lead {
-    font-family: openSansRegular;
-    font-size: 13.5px;
-}
 
 
 /* RESPONSIVE CSS
@@ -578,6 +537,8 @@ div#footer > .container {
     position: relative;
     top: -0.7em;
 }
+
+/* SEPARATOR HR LATERALBAR */
 .lateral-bar .item-lateral-bar > div.hr {
     margin: 0;
     height: 1px;
@@ -585,4 +546,69 @@ div#footer > .container {
     text-align: center;
     border: 0;
     margin: 35px 0;
+}
+
+/* SEPARATOR HR CONTENT */
+#main-container div.hr {
+    margin: 0;
+    height: 1px;
+    background-color: #e1e1e1;
+    text-align: center;
+    border: 0;
+    margin: 100px 0;
+}
+
+/* SEPARATOR ICON CONTAINER */
+#main-container div.hr > .icon-container {
+    border: 24px #fff solid;
+    border-radius: 50%;
+    width: 81px;
+    height: 81px;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    
+    line-height: 31px;
+}
+
+/* SEPARATOR TITLE */
+#main-container div.hr > h2 {
+    font-family: openSansRegular;
+    font-size: 24px;
+    color: #484848;
+    position: relative;
+    top: -2.8em;  
+}
+
+#main-container div.hr > h2 > b {
+    font-family: openSansBold;
+}
+
+/* ICON WITH BACKGROUND */
+.item-rounded-colored {
+    background-color: #71b6d5;
+    color: #fff;
+    font-size: 18px;
+    top: -2.3em;
+}
+
+/* SEPARATOR DESCRIPTION */
+#main-container div.hr > p {
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    position: relative;
+    top: -5.2em;
+    color: #7c7770;
+}
+
+/* ICON WITHOUT BACKGROUND */
+.item-nobg-colored {
+    color: #71b6d5;
+    background-color: #fff;
+    font-size: 40px;
+    top: -1.1em;
+}
+
+#main-container div.hr > .icon-container > fa {
+    vertical-align: middle;
 }
