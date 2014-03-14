@@ -532,7 +532,13 @@ div#footer > .container {
     display: inline-block;
 }
 
-
+.portfolio .project-item .thumbnail {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 
 .main-content .sub-content {
     border: 1px #e1e1e1 solid;
