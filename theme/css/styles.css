@@ -108,7 +108,7 @@ body {
 
 .carousel-caption > h1 {
     font-family: openSansBold;
-    font-size: 48px;
+    font-size: 43px;
 }
 
 /* Declare heights because of positioning of img element */
@@ -638,4 +638,26 @@ div#footer > .container {
 
 #main-container div.hr-large > .icon-container > fa {
     vertical-align: middle;
+}
+
+
+
+.carousel-control .glyphicon-chevron-left {
+    padding: 10px;
+    border: 2px #fff solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-indent: -4px;
+    line-height: 35px;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    padding: 10px;
+    border: 2px #fff solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-indent: 0;
+    line-height: 32px;
 }
