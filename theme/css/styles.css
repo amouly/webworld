@@ -126,6 +126,18 @@ body {
   height: 560px;
 }
 
+.carousel-indicators li {
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.carousel-indicators .active {
+    width: 20px;
+    height: 20px;
+}
+
+
 .btn-slider {
     background-color: #71b6d5;
     color: #fff;
@@ -597,6 +609,10 @@ div#footer > .container {
     margin: 100px 0;
 }
 
+#main-container div.hr-large.less-margin {
+    margin: 50px 0;
+}
+
 /* SEPARATOR ICON CONTAINER */
 #main-container div.hr-large > .icon-container {
     border: 24px #fff solid;
@@ -689,4 +705,14 @@ div#footer > .container {
     font-family: openSansRegular;
     font-size: 13.5px;
     padding: 20px;
+}
+
+.feature-container h2 {
+    font-family: openSansSemiBold;
+    font-size: 20px;
+}
+
+.feature-container p {
+    font-family: openSansRegular;
+    font-size: 13.5px;
 }
