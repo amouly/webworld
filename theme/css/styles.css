@@ -392,6 +392,34 @@ p.home-introduction {
     margin-bottom: 20px;
 }
 
+/* Override the bootstrap style */
+#bottom-bar blockquote {
+    border: 0;
+    padding: 10px;
+    font-size: 12px;
+    margin: 0;
+}
+
+
+#bottom-bar blockquote p {
+    border-left: none;
+    color: #c4c4c4;
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    line-height: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Insert the pseudo element - replicating what FontAwesome does */
+#bottom-bar blockquote p:before {
+    content: "\f099"; 
+    font-family: FontAwesome;
+    float: left;
+    margin-right: 10px;
+    color: #71b6d5;
+}
+
 /* HEADER
 -------------------------------------------------- */
 
@@ -458,6 +486,8 @@ div#footer > .container {
 }
 
 
+
+
 /* CONTACT SECTION
 -------------------------------------------------- */
 
@@ -508,6 +538,49 @@ div#footer > .container {
     border: 1px #e1e1e1 solid;
     border-radius: 5px;
     padding: 20px;
+}
+
+/* Override the bootstrap style */
+.lateral-bar blockquote {
+    border: 0;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.lateral-bar blockquote p {
+    border-left: none;
+    color: #7c7770;
+    font-family: openSansRegular;
+    font-size: 13px;
+    line-height: 20px;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+/* Insert the pseudo element - replicating what FontAwesome does */
+.lateral-bar blockquote p:before {
+    content: "\f10d"; 
+    font-family: FontAwesome;
+    float: left;
+    margin-right: 10px;
+    color: #71b6d5;
+}
+
+.lateral-bar blockquote p:after {
+    content: "\f10e"; 
+    font-family: FontAwesome;
+    padding-left: 10px;
+    color: #71b6d5;
+}
+
+.lateral-bar .label-default {
+    display: inline-block;
+    border: 0;
+    color: #7c7770;
+    font-family: openSansRegular;
+    background-color: #fff;
+    border: 1px #e1e1e1 solid;
+    font-weight: normal;
 }
 
 /* Portfolio Content */
