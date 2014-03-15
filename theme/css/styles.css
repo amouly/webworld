@@ -17,7 +17,7 @@ body {
 -------------------------------------------------- */
 @font-face {
     font-family: pacificoFont;
-    src: url(../../assets/fonts/pacifico.ttf);
+    src: url(../../assets/fonts/Pacifico.ttf);
 }
 
 @font-face {
@@ -452,7 +452,7 @@ div#footer > .container {
     font-family: openSansRegular;
     font-size: 13.5px;
     color: #c4c4c4;
-    display: inline;
+    margin: 5px 0 0 0;
 }
 
 #footer ul {
