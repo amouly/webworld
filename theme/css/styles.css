@@ -17,22 +17,22 @@ body {
 -------------------------------------------------- */
 @font-face {
     font-family: pacificoFont;
-    src: url(../assets/fonts/pacifico.ttf);
+    src: url(../../assets/fonts/pacifico.ttf);
 }
 
 @font-face {
     font-family: openSansRegular;
-    src: url(../assets/fonts/OpenSans-Regular_0.ttf);
+    src: url(../../assets/fonts/OpenSans-Regular_0.ttf);
 }
 
 @font-face {
     font-family: openSansBold;
-    src: url(../assets/fonts/OpenSans-Bold_0.ttf);
+    src: url(../../assets/fonts/OpenSans-Bold_0.ttf);
 }
 
 @font-face {
     font-family: openSansSemiBold;
-    src: url(../assets/fonts/OpenSans-Semibold_0.ttf);
+    src: url(../../assets/fonts/OpenSans-Semibold_0.ttf);
 }
 
 /* RESPONSIVE CSS
