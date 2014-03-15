@@ -77,21 +77,21 @@ body {
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+    padding-right: 15px;
+    padding-left: 15px;
     border-bottom: 1px #7c7c7c solid;
 }
 
@@ -132,8 +132,8 @@ body {
 
 /* Carousel base class */
 .carousel {
-  height: 560px;
-  margin-bottom: 60px;
+    height: 560px;
+    margin-bottom: 60px;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
@@ -149,17 +149,17 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel .item {
-  height: 560px;
+    height: 560px;
 }
 .carousel-inner {
 }
 
 .carousel-inner > .item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
- /* min-width: 100%; */
-  height: 560px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* min-width: 100%; */
+    height: 560px;
 }
 
 .carousel-indicators li {
@@ -173,6 +173,28 @@ body {
     height: 20px;
 }
 
+.carousel-control .glyphicon-chevron-left {
+    padding: 10px;
+    border: 2px #fff solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-indent: -4px;
+    line-height: 35px;
+}
+
+.carousel-control .glyphicon-chevron-right {
+    padding: 10px;
+    border: 2px #fff solid;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    text-indent: 0;
+    line-height: 32px;
+}
+
+/* GENERAL ELEMENTS
+-------------------------------------------------- */
 
 .btn-slider {
     background-color: #71b6d5;
@@ -199,7 +221,7 @@ body {
 }
 
 .home .col-lg-4 {
-  text-align: center;
+    text-align: center;
 }
 .home h2.header-boxes {
   font-family: openSansSemiBold;
@@ -335,6 +357,22 @@ p.home-introduction {
     
 }
 
+/* HEADER
+-------------------------------------------------- */
+
+#header {
+    background: #0e1828 url("../bitmaps/slider/slide1.jpg") no-repeat top center;
+}
+#header.contact, #header.portfolio {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 360px;
+    padding: 0;
+}
+
+#header.home {
+}
 
 /* BOTTOM BAR
 -------------------------------------------------- */
@@ -349,6 +387,7 @@ p.home-introduction {
     margin: 0;
     padding: 0;
     list-style: none;
+    margin-top: 20px;
 }
 
 #bottom-bar ul.contact-data > li {
@@ -419,23 +458,6 @@ p.home-introduction {
     color: #71b6d5;
 }
 
-/* HEADER
--------------------------------------------------- */
-
-#header {
-    background: #0e1828 url("../bitmaps/slider/slide1.jpg") no-repeat top center;
-}
-#header.contact, #header.portfolio {
-    position: relative;
-    overflow: hidden;
-    width: 100%;
-    height: 360px;
-    padding: 0;
-}
-
-#header.home {
-}
-
 /* FOOTER
 -------------------------------------------------- */
 
@@ -484,9 +506,6 @@ div#footer > .container {
     background-color: #71b6d5;
 }
 
-
-
-
 /* CONTACT SECTION
 -------------------------------------------------- */
 
@@ -513,6 +532,18 @@ div#footer > .container {
 .contacts-container .badge-container > span{
     line-height: 2.5;
     font-size: 25px;
+}
+
+#contact-form button {
+    width: 100%;
+}
+
+#contact-form input, #contact-form textarea {
+    background-color: #f5f5f5;
+    color: #ababab;
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    padding: 20px;
 }
 
 
@@ -742,37 +773,9 @@ div#footer > .container {
 
 
 
-.carousel-control .glyphicon-chevron-left {
-    padding: 10px;
-    border: 2px #fff solid;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    text-indent: -4px;
-    line-height: 35px;
-}
 
-.carousel-control .glyphicon-chevron-right {
-    padding: 10px;
-    border: 2px #fff solid;
-    width: 60px;
-    height: 60px;
-    border-radius: 50px;
-    text-indent: 0;
-    line-height: 32px;
-}
 
-#contact-form button {
-    width: 100%;
-}
 
-#contact-form input, #contact-form textarea {
-    background-color: #f5f5f5;
-    color: #ababab;
-    font-family: openSansRegular;
-    font-size: 13.5px;
-    padding: 20px;
-}
 
 .feature-container h2 {
     font-family: openSansSemiBold;
@@ -784,7 +787,4 @@ div#footer > .container {
     font-size: 13.5px;
 }
 
-.portfolio-content {
-    border-top: 1px #e1e1e1 solid;
-    border-left: 1px #e1e1e1 solid;
-}
+
