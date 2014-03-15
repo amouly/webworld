@@ -13,6 +13,28 @@ body {
     }
 }
 
+/* DEDICATED FONTS
+-------------------------------------------------- */
+@font-face {
+    font-family: pacificoFont;
+    src: url(../assets/fonts/pacifico.ttf);
+}
+
+@font-face {
+    font-family: openSansRegular;
+    src: url(../assets/fonts/OpenSans-Regular_0.ttf);
+}
+
+@font-face {
+    font-family: openSansBold;
+    src: url(../assets/fonts/OpenSans-Bold_0.ttf);
+}
+
+@font-face {
+    font-family: openSansSemiBold;
+    src: url(../assets/fonts/OpenSans-Semibold_0.ttf);
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
@@ -49,29 +71,6 @@ body {
   }
 }
 
-
-
-/* DEDICATED FONTS
--------------------------------------------------- */
-@font-face {
-    font-family: pacificoFont;
-    src: url(../fonts/pacifico.ttf);
-}
-
-@font-face {
-    font-family: openSansRegular;
-    src: url(../fonts/OpenSans-Regular_0.ttf);
-}
-
-@font-face {
-    font-family: openSansBold;
-    src: url(../fonts/OpenSans-Bold_0.ttf);
-}
-
-@font-face {
-    font-family: openSansSemiBold;
-    src: url(../fonts/OpenSans-Semibold_0.ttf);
-}
 
 /* NAVBAR
 -------------------------------------------------- */
