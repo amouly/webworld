@@ -75,54 +75,32 @@ body {
 /* NAVBAR
 -------------------------------------------------- */
 
+
+
+
+
+/* NAVBAR
+-------------------------------------------------- */
+
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-    position: absolute;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 20;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 20;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
-
+  padding-right: 0;
+  padding-left: 0;
 }
 .navbar-wrapper .navbar {
-    border-bottom: 1px #7c7c7c solid;
+  padding-right: 15px;
+  padding-left: 15px;
 }
 
-.navbar-nav {
-    margin-top: 15px;
-}
-
-.navbar-header span#logo {
-    font-family: pacificoFont;
-    color: #fff;
-    font-size: 30px;
-    margin-top: 6px;
-}
-
-.main-menu {
-    padding-top: 22px;
-    padding-bottom: 22px;
-}
-
-.navbar-nav>li>a {
-    font-family: openSansRegular;
-    font-size: 14.5px;
-    color: #fff;
-    padding: 0;
-    margin-right: 35px;
-}
-.navbar-nav>li:last-child>a {
-    margin-right: 0;
-}
-
-.navbar-nav>li>a:hover {
-    background: none;
-    color: #ebebeb;
-}
 
 /* CAROUSEL
 -------------------------------------------------- */
