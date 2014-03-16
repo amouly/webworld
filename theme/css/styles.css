@@ -782,7 +782,14 @@ div#footer > .container {
 
 
 
-.projects-container img:hover {
+.projects-container a:hover {
     opacity:0.4;
     filter:alpha(opacity=40);
+
+}
+
+.projects-container a:hover:before {
+    content: "\f002"; 
+    font-family: FontAwesome;
+    color: #fff;
 }
