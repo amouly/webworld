@@ -324,17 +324,12 @@ p.home-introduction {
 .boxes-container img {
     border: 1px #e1e1e1 solid;
     border-bottom: 0;
-
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     -khtml-border-radius: 5px;
-    
-    
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
-    height: 128px;
-    width: 321px;
 }
 
 .boxes-container .thumbnail {
