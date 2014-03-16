@@ -38,39 +38,43 @@ body {
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
-@media (min-width: 768px) {
+/* I tend to go for a 600px - 960px width max but using percentages */
 
-  /* Remove the edge padding needed for mobile */
-  .home {
-    padding-right: 20px;
-    padding-left: 20px;
-  }
-
-  .navbar-wrapper .container {
-
-  }
-  .navbar-wrapper .navbar {
-    padding-right: 0;
-    padding-left:  0;
-  }
-
-  /* Bump up size of carousel content */
-  .carousel-caption p {
-    margin-bottom: 20px;
-    font-size: 25px;
-    line-height: 1.4;
-    font-family: openSansRegular;
-  }
-
-  .featurette-heading {
-  }
+/* Styles for browsers larger than 960px; */
+@media only screen and (min-width:960px){
+    
 }
 
-@media (min-width: 992px) {
-  .featurette-heading {
-  }
+/* For browsers larger than 1440px; */
+@media only screen and (min-width:1440px){
+    
 }
 
+/* For sumo sized (mac) screens */
+@media only screen and (min-width:2000px){
+    
+}
+
+/* For mobile browsers smaller than 480px; (iPhone) */
+@media only screen and (max-device-width:480px){
+  
+}
+
+/* Default iPad screens */
+@media only screen and (device-width:768px){
+   
+}
+
+/* - For iPad screening - */
+/* For portrait layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  
+}
+
+/* For landscape layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  
+}
 
 /* NAVBAR
 -------------------------------------------------- */
