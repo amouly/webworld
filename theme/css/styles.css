@@ -787,7 +787,7 @@ div#footer > .container {
     width: 100%;
     height: 100%;
     color: #fff;
-    padding: 50%;
+    text-align: center;
 }
 
 .project-overlay:hover {
@@ -795,6 +795,6 @@ div#footer > .container {
 }
 
 .parent {
-position: relative;
+    position: relative;
 }
 
