@@ -93,6 +93,7 @@ body {
   padding-right: 0;
   padding-left: 0;
 }
+
 .navbar-wrapper .navbar {
   background: none;
     border-bottom: 1px #7c7c7c solid;
@@ -105,6 +106,11 @@ body {
     color: #fff;
     font-size: 30px;
     margin-top: 6px;
+}
+
+/* Collapse icon */
+.navbar-wrapper button > span {
+    font-size: 20px;
 }
 
 
