@@ -95,7 +95,9 @@ body {
 }
 .navbar-wrapper .navbar {
   background: none;
-    border: 1px #7c7c7c solid;
+    border-bottom: 1px #7c7c7c solid;
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
 
 .navbar-wrapper .navbar-brand {
