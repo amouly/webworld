@@ -251,7 +251,7 @@ body {
     padding-top: 20px;
 }
 
-.project-overlay {
+.project-container .project-overlay {
     position: absolute;
     top: 0;
     width: 100%;
@@ -259,22 +259,25 @@ body {
     color: #fff;
     text-align: center;
     padding-top: 5.5em;
+    border-radius: 5px;
+    display: none;
 }
 
-.project-overlay:hover {
+.project-container .project-overlay:hover {
     opacity:1;
     background:rgba(0,0,0,0.5) center no-repeat;
+    display: block;
 }
 
 .project-container .image-container {
     position: relative;
 }
 
-.project-container > .image-responsive {
+.image-container > .image-responsive {
     border-radius: 5px;
 }
 
-.project-content > h2 {
+.project-container .project-content > h2 {
     font-family: openSansSemiBold;
     font-size: 18px;
     text-align: center;
@@ -282,7 +285,7 @@ body {
     text-align: center;
 }
 
-.project-content > p {
+.project-container .project-content > p {
     font-family: openSansRegular;
     font-size: 13.5px;
     text-align: center;
