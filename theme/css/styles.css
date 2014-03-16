@@ -782,6 +782,7 @@ div#footer > .container {
 
 
 
-.projects-container a:hover {
-    opacity: 50%;
+.projects-container img:hover {
+    opacity:0.4;
+    filter:alpha(opacity=40);
 }
