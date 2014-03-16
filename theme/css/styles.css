@@ -109,8 +109,18 @@ body {
 }
 
 /* Collapse icon */
+.navbar-wrapper button {
+    margin-bottom: 0;
+}
+
 .navbar-wrapper button > span {
     font-size: 20px;
+}
+
+/* Navbar collapse */
+.navbar-collapse {
+    border: none;
+    box-shadow: none;
 }
 
 
