@@ -94,8 +94,8 @@ body {
   padding-left: 0;
 }
 .navbar-wrapper .navbar {
-  padding-right: 15px;
-  padding-left: 15px;
+  background: none;
+    border: 1px #7c7c7c solid;
 }
 
 .navbar-wrapper .navbar-brand {
