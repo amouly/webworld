@@ -782,38 +782,16 @@ div#footer > .container {
 
 
 
-.projects-container a:hover {
-    opacity:0.4;
-    filter:alpha(opacity=40);
-
-}
-
-.projects-container a:hover:before {
-    content: "\f002"; 
-    font-family: FontAwesome;
-    color: #fff;
-}
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 .image { 
-  position:absolute; 
-  display:block;
-  z-index: 1;
-  width:603px;
-  height:417px; }
+    position: absolute; 
+    display: block;
+    z-index: 1;
+    width: 603px;
+    height: 417px;
+}
 
 .cn {
     position: absolute;
