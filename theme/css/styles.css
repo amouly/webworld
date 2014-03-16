@@ -260,7 +260,6 @@ body {
     text-align: center;
     padding-top: 5.5em;
     border-radius: 5px;
-    display: none;
 }
 
 .project-container .project-overlay:hover {
@@ -275,7 +274,7 @@ body {
     font-weight: normal;
     line-height: 1;
     -webkit-font-smoothing: antialiased;
-    content: "\f067";
+    content: "\f002";
 }
 
 .project-container .image-container {
