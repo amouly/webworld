@@ -332,9 +332,7 @@ p.home-introduction {
     border-bottom-left-radius: 0;
 }
 
-.boxes-container .thumbnail {
 
-}
 
 /* DIVIDER
 -------------------------------------------------- */
@@ -783,3 +781,7 @@ div#footer > .container {
 }
 
 
+
+.projects-container a:hover {
+    opacity: 50%;
+}
