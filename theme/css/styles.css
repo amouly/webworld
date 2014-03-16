@@ -793,3 +793,70 @@ div#footer > .container {
     font-family: FontAwesome;
     color: #fff;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.image { 
+  position:absolute; 
+  display:block;
+  z-index: 1;
+  width:603px;
+  height:417px; }
+
+.cn {
+    position: absolute;
+    display: table;
+    z-index: 2;
+    opacity: 0;
+    left: 10;
+    top: 10;
+    width:603px;
+    height:417px;
+    vertical-align: middle;
+    text-align: center;
+    margin: auto;
+}
+
+.cn:hover { 
+    opacity:1;
+    background:rgba(0,0,0,0.5) center no-repeat;
+}
+
+div.inner {
+    xdisplay: block;
+    width: 280px;
+    height: 80px;
+    display:table-cell;
+    vertical-align:middle;
+    
+}
+
+.large {
+    font-size: 46pt;
+    color: #bbb;
+    text-decoration: none;
+    padding: 0 10px 0 10px;
+}
+
+.large:hover {
+    color: #fff;
+}
+
+
+
+
+
+
+
