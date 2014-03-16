@@ -269,11 +269,20 @@ body {
     display: block;
 }
 
+.project-container .project-overlay:hover:before {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    content: "\f067";
+}
+
 .project-container .image-container {
     position: relative;
 }
 
-.image-container > .image-responsive {
+.image-container > .img-responsive {
     border-radius: 5px;
 }
 
