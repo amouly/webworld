@@ -238,10 +238,11 @@ body {
     font-size: 13.5px;
 }
 
-.home .image-container {
+.home .thumbnail {
     padding: 0;
     margin: 0;
     border: 0;
+    -webkit-box-shadow: none;
     box-shadow: none;
 }
 
@@ -320,7 +321,7 @@ p.home-introduction {
     line-height: 2.5;
 }
 
-.boxes-container .box-image {
+.boxes-container img {
     border: 1px #e1e1e1 solid;
     border-bottom: 0;
 
@@ -337,8 +338,7 @@ p.home-introduction {
 }
 
 .boxes-container .thumbnail {
-    -webkit-box-shadow: none;
-    box-shadow: none;
+
 }
 
 /* DIVIDER
