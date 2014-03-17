@@ -512,7 +512,6 @@ p.home-introduction {
 .testimonial-item blockquote p:before {
     content: "\f10d"; 
     font-family: FontAwesome;
-    float: left;
     margin-right: 10px;
     color: #71b6d5;
 }
@@ -521,7 +520,7 @@ p.home-introduction {
 .testimonial-item blockquote p:after {
     content: "\f10e"; 
     font-family: FontAwesome;
-    padding-left: 10px;
+    margin-left: 10px;
     color: #71b6d5;
 }
 
