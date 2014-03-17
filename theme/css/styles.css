@@ -498,10 +498,10 @@ p.home-introduction {
 .testimonials-container blockquote {
     border: 0;
     padding: 10px;
-    font-size: 12px;
+    border: 0;
 }
 
-.testimonials-container blockquote p {
+.testimonial-item blockquote p {
     font-family: openSansRegular;
     font-size: 18px;
     color: #575757;
@@ -509,7 +509,7 @@ p.home-introduction {
 }
 
 /* Blockquote icon on left */
-.testimonials-container blockquote p:before {
+.testimonial-item blockquote p:before {
     content: "\f10d"; 
     font-family: FontAwesome;
     float: left;
@@ -518,21 +518,21 @@ p.home-introduction {
 }
 
 /* Blockquote icon on right */
-.testimonials-container blockquote p:after {
+.testimonial-item blockquote p:after {
     content: "\f10e"; 
     font-family: FontAwesome;
     padding-left: 10px;
     color: #71b6d5;
 }
 
-.testimonials-container span {
+.testimonial-item span {
     font-family: openSansRegular;
     font-size: 15px;
     color: #484848;
     text-align: center;
 }
 
-.testimonials-container span > b {
+.testimonial-item span > b {
     font-family: openSansBold;
 }
 
