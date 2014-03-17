@@ -207,11 +207,21 @@ body {
     and (max-device-width : 568px)
     and (orientation : portrait) {
 
+    /* Customize separators */
+    #separator-features {
+        background-color: #71b6d5;
+    }
+        
+    /* Hide containers */
     #features-container {
         display: none;
     }
     
     #projects-container {
+        display: none;
+    }
+    
+    #testimonials-container {
         display: none;
     }
 
