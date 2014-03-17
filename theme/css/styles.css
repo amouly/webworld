@@ -658,6 +658,11 @@ div#footer > .container {
     font-size: 25px;
 }
 
+#contact-form {
+    width: 60%;
+    margin: auto;
+}
+
 #contact-form button {
     width: 100%;
 }
@@ -668,8 +673,14 @@ div#footer > .container {
     font-family: openSansRegular;
     font-size: 13.5px;
     padding: 20px;
+    border: 1px #e2e2e2 solid;
 }
 
+#contact-form textarea {
+    margin: 20px 0;
+    height: 220px;
+    resize: none;
+}
 
 /* PORTFOLIO SECTION
 -------------------------------------------------- */
