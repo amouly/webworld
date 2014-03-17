@@ -76,7 +76,9 @@ body {
 /* Smartphones (portrait) ----------- */
 @media only screen
     and (max-width : 320px) {
-/* STYLES GO HERE */
+
+      
+        
 }
  
 /* iPads (portrait and landscape) ----------- */
@@ -108,8 +110,8 @@ body {
 
     /* Customized navbar */
     .navbar-wrapper .navbar {
-    background: none;
-     border-bottom: 1px #7c7c7c solid;
+        background: none;
+        border-bottom: 1px #7c7c7c solid;
     }
 }
  
@@ -124,7 +126,9 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px) {
 
-
+    #bottom-bar #col-tweets {
+        display: none;
+    }
         
 }
  
