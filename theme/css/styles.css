@@ -43,11 +43,17 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
 
-    /* Customized navbar*/
+    /* Customized navbar */
     .navbar-wrapper .navbar {
         background-color: #273a43;
         border: none;
-    }      
+    }
+        
+    /* Customized home boxes */
+    .boxes-container .box-container {
+        width: 350px;
+        margin: auto;
+    }
         
 }
  
