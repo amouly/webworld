@@ -888,8 +888,7 @@ div#footer > .container {
 
 /* Project Styles */
 .project-item .project-header {
-    margin: 4px 0;
-    padding: 15px;
+    padding: 20px
 }
 
 .project-item .project-header > h2 {
@@ -898,6 +897,7 @@ div#footer > .container {
     text-align: center;
     color: #484848;
     text-transform: uppercase;
+    margin: 5px 0 2px 0;
 }
 
 .project-item .project-header > span {
