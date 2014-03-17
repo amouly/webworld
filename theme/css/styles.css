@@ -494,6 +494,25 @@ p.home-introduction {
 }
 
 
+.testimonials-container .testimonial-text {
+    font-family: openSansRegular;
+    font-size: 18px;
+    color: #575757;
+    text-align: center;
+}
+
+.testimonials-container .testimonial-author {
+    font-family: openSansRegular;
+    font-size: 15px;
+    color: #484848;
+    text-align: center;
+}
+
+.testimonials-container .testimonial-author > b {
+    font-family: openSansBold;
+}
+
+
 
 /* DIVIDER
 -------------------------------------------------- */
