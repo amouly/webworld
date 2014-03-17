@@ -246,6 +246,12 @@ body {
     margin-top: 6px;
 }
 
+.navbar-nav>li>a {
+    color: #fff;
+    font-family: openSansRegular;
+    font-size: 14.5px;
+}
+
 /* Collapse icon */
 .navbar-wrapper button {
     margin-bottom: 0;
