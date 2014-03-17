@@ -359,8 +359,6 @@ p.home-introduction {
     border: 1px #e1e1e1 solid;
     border-top: 0;
     border-radius: 5px;
-    width: 321px;
-    height: 128px;
     margin: auto;
     border-top-right-radius: 0;
     border-top-left-radius: 0;
@@ -390,8 +388,6 @@ p.home-introduction {
 }
 
 .boxes-container img {
-    border: 1px #e1e1e1 solid;
-    border-bottom: 0;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
