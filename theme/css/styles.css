@@ -183,6 +183,11 @@ body {
         margin: 50px 0;
     }
         
+    /* Specific for Lastest Projects */
+    #main-container #separator-projects p {
+        display: none;
+    }
+        
     #main-container div.hr-large > h2 {
         padding-top: 15px;
     }
