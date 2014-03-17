@@ -176,12 +176,16 @@ body {
 
     /* SEPARATOR HR CONTENT */
     #main-container div.hr-large {
-        height: 50px;
+        height: 90px;
         background-color: #71b6d5; 
         text-align: center;
         border: 0;
         margin: 50px 0;
-    }       
+    }
+        
+    #main-container div.hr-large > h2 {
+        padding-top: 15px;
+    }
         
     #bottom-bar #col-company .logo {
         text-align: center;
@@ -979,9 +983,8 @@ div#footer > .container {
     top: -0.7em;
 }
 
-/* SEPARATOR HR CONTENT */
+/* SEPARATOR HR CONTENT - GENERAL */
 #main-container div.hr-large {
-    margin: 0;
     text-align: center;
 }
 
