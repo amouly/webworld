@@ -7,12 +7,6 @@ body {
   color: #5a5a5a;
 }
 
-@media (min-width: 1200px){
-    .container {
-        width: 1064px;
-    }
-}
-
 /* DEDICATED FONTS
 -------------------------------------------------- */
 @font-face {
@@ -37,6 +31,12 @@ body {
 
 /* RESPONSIVE CSS
 -------------------------------------------------- */
+
+@media (min-width: 1200px){
+    .container {
+        width: 1064px;
+    }
+}
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen
@@ -122,28 +122,26 @@ body {
 }
 
 
-
-
 /* NAVBAR
 -------------------------------------------------- */
 
 /* Special class on .container surrounding .navbar, used for positioning it into place. */
 .navbar-wrapper {
-  position: absolute;
-  top: 0;
-  right: 0;
-  left: 0;
-  z-index: 20;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 20;
 }
 
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
-  padding-right: 0;
-  padding-left: 0;
+    padding-right: 0;
+    padding-left: 0;
 }
 
 .navbar-wrapper .navbar {
-  background: none;
+    background: none;
     border-bottom: 1px #7c7c7c solid;
     padding-top: 30px;
     padding-bottom: 30px;
@@ -169,6 +167,11 @@ body {
 .navbar-collapse {
     border: none;
     box-shadow: none;
+}
+
+.container>.navbar-header {
+    margin-right: 0;
+    margin-left: 0;
 }
 
 
@@ -283,14 +286,6 @@ body {
     font-size: 13.5px;
 }
 
-.home .thumbnail {
-    padding: 0;
-    margin: 0;
-    border: 0;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
 /* Lastest Projects Subsection */
 .projects-container {
     padding-top: 20px;
@@ -309,7 +304,7 @@ body {
 
 .project-container .project-overlay:hover {
     opacity:1;
-    background:rgba(0,0,0,0.5) center no-repeat;
+    background: rgba(0,0,0,0.5) center no-repeat;
     display: block;
 }
 
