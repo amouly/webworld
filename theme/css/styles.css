@@ -90,7 +90,12 @@ body {
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
     and (orientation : landscape) {
-/* STYLES GO HERE */
+
+    /* Customized navbar */
+    .navbar-wrapper .navbar {
+        border-bottom: 1px #7c7c7c solid;
+        background: none;
+    }
 }
  
 /* iPads (portrait) ----------- */
