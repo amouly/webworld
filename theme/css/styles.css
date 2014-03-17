@@ -566,8 +566,8 @@ p.home-introduction {
 
 .testimonial-item blockquote {
     border: 0;
+    margin: 0;
     padding: 10px;
-    border: 0;
 }
 
 .testimonial-item blockquote p {
