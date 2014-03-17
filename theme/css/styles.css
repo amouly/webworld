@@ -821,6 +821,12 @@ div#footer > .container {
 
 }
 
+/* Specific styles for mobile */
+#contacts-container col-sm-6,
+#contacts-container col-xs-12 {
+    margin-bottom: 20px;
+}
+
 .contacts-container .contact-container > h2 {
     color: #484848;
     font-family: openSansBold;
