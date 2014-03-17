@@ -198,8 +198,8 @@ body {
         
     /* Carousel */
     .carousel-caption > h1 {
-        font-family: openSansBold;
-        font-size: 30px;
+        font-family: openSansRegular;
+        font-size: 25px;
     }
 
     .carousel-caption > p {
