@@ -59,13 +59,23 @@ body {
 /* Smartphones (landscape) ----------- */
 @media only screen
     and (min-width : 321px) {
-        
+
+    /* Customized navbar */
+    .navbar-wrapper .navbar {
+        background-color: #273a43;
+        border: none;
+    }
 }
  
 /* Smartphones (portrait) ----------- */
 @media only screen
     and (max-width : 320px) {
 
+    /* Customized navbar */
+    .navbar-wrapper .navbar {
+        background-color: #273a43;
+        border: none;
+    }
       
 }
  
