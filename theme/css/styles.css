@@ -234,6 +234,10 @@ body {
     z-index: 20;
 }
 
+.navbar-nav {
+    margin: 0;
+}
+
 /* Flip around the padding for proper display in narrow viewports */
 .navbar-wrapper .container {
     padding-right: 0;
