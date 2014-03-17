@@ -494,25 +494,47 @@ p.home-introduction {
 }
 
 
-.testimonials-container .testimonial-text {
+/* Override the bootstrap style */
+.testimonials-container blockquote {
+    border: 0;
+    padding: 10px;
+    font-size: 12px;
+}
+
+.testimonials-container blockquote p {
     font-family: openSansRegular;
     font-size: 18px;
     color: #575757;
     text-align: center;
 }
 
-.testimonials-container .testimonial-author {
+/* Blockquote icon on left */
+.testimonials-container blockquote p:before {
+    content: "\f10d"; 
+    font-family: FontAwesome;
+    float: left;
+    margin-right: 10px;
+    color: #71b6d5;
+}
+
+/* Blockquote icon on right */
+.testimonials-container blockquote p:after {
+    content: "\f10e"; 
+    font-family: FontAwesome;
+    padding-left: 10px;
+    color: #71b6d5;
+}
+
+.testimonials-container span {
     font-family: openSansRegular;
     font-size: 15px;
     color: #484848;
     text-align: center;
 }
 
-.testimonials-container .testimonial-author > b {
+.testimonials-container span > b {
     font-family: openSansBold;
 }
-
-
 
 /* DIVIDER
 -------------------------------------------------- */
@@ -788,7 +810,7 @@ div#footer > .container {
     padding-bottom: 0;
 }
 
-/* Insert the pseudo element - replicating what FontAwesome does */
+/* Blockquote icon on left */
 .lateral-bar blockquote p:before {
     content: "\f10d"; 
     font-family: FontAwesome;
@@ -797,6 +819,7 @@ div#footer > .container {
     color: #71b6d5;
 }
 
+/* Blockquote icon on right */
 .lateral-bar blockquote p:after {
     content: "\f10e"; 
     font-family: FontAwesome;
