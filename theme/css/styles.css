@@ -126,10 +126,18 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px) {
 
-    #bottom-bar #col-tweets {
+    #bottom-bar #col-company p {
         display: none;
     }
         
+    #bottom-bar #col-contact .header,
+    #bottom-bar #col-contact p {
+        display: none;
+    }
+        
+    #bottom-bar #col-tweets {
+        display: none;
+    }  
 }
  
 /* iPhone 5 (landscape)----------- */
