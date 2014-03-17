@@ -234,6 +234,10 @@ body {
     z-index: 20;
 }
 
+.container>.navbar-collapse {
+    margin: 0;
+}
+
 .navbar-nav {
     margin: 0;
 }
