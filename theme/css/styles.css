@@ -119,17 +119,7 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px) {
 
-    /* Customized navbar */
-    .navbar-wrapper .navbar {
-        background-color: #273a43;
-        border: none;
-    }
-        
-    /* Customized home boxes */
-    .boxes-container .box-container {
-        width: 350px;
-        margin: auto;
-    }
+
         
 }
  
@@ -146,7 +136,19 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px)
     and (orientation : portrait) {
-/* STYLES GO HERE */
+
+    /* Customized navbar */
+    .navbar-wrapper .navbar {
+        background-color: #273a43;
+        border: none;
+    }
+        
+    /* Customized home boxes */
+    .boxes-container .box-container {
+        width: 350px;
+        margin: auto;
+    }
+        
 }
 
 
