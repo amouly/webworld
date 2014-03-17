@@ -61,7 +61,18 @@ body {
     /* Customized navbar*/
     .navbar-wrapper .navbar {
         background-color: #273a43;
+        border: none;
+    }
 }
+
+/*  */
+@media only screen and (min-width:480px){
+    
+    /* Customized navbar*/
+    .navbar-wrapper .navbar {
+        background-color: #273a43;
+        border: none;
+    }
 }
 
 /* Default iPad screens */
