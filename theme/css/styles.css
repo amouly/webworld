@@ -521,6 +521,20 @@ p.home-introduction {
     color: #71b6d5;
 }
 
+.testimonial-item blockquote:before 
+{
+    content: "";
+    position: absolute;
+    top: 122px;
+    left: 109px;
+    border-style: solid;
+    border-width: 16px 16px 0;
+    border-color: #e1e1e1 transparent;
+    display: block;
+    width: 0;
+    z-index: 0;
+}
+
 /* Blockquote icon on right */
 .testimonial-item blockquote p:after {
     content: "\f10e"; 
