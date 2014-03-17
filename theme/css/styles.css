@@ -183,6 +183,11 @@ body {
         margin: 50px 0;
     }
         
+    /* Customize separators */
+    #separator-features {
+        background-color: #71b6d5;
+    }
+    
     /* Specific for Lastest Projects */
     #main-container #separator-projects p {
         display: none;
@@ -191,7 +196,8 @@ body {
     #main-container div.hr-large > h2 {
         padding-top: 15px;
     }
-        
+    
+    /* Specific for BottomBar */
     #bottom-bar #col-company .logo {
         text-align: center;
     }
@@ -213,9 +219,23 @@ body {
         display: none;
     }
 
+    /* Carousel contente specific */
     .carousel-caption > h1 {
         font-family: openSansRegular;
         font-size: 43px;
+    }
+        
+    /* Hide containers */
+    #features-container {
+        display: none;
+    }
+    
+    #projects-container {
+        display: none;
+    }
+    
+    #testimonials-container {
+        display: none;
     }
 }
  
@@ -233,23 +253,6 @@ body {
     and (max-device-width : 568px)
     and (orientation : portrait) {
 
-    /* Customize separators */
-    #separator-features {
-        background-color: #71b6d5;
-    }
-        
-    /* Hide containers */
-    #features-container {
-        display: none;
-    }
-    
-    #projects-container {
-        display: none;
-    }
-    
-    #testimonials-container {
-        display: none;
-    }
 
     /* Customized navbar */
     .navbar-wrapper .navbar {
