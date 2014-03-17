@@ -525,10 +525,14 @@ p.home-introduction {
 }
 
 .testimonial-item span {
+    display: block;
     font-family: openSansRegular;
     font-size: 15px;
     color: #484848;
     text-align: center;
+    width: 50%;
+    margin: auto;
+    border-top: 1px #e1e1e1 solid;
 }
 
 .testimonial-item span > b {
