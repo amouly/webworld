@@ -78,14 +78,16 @@ body {
     and (max-width : 320px) {
 
       
-        
 }
  
 /* iPads (portrait and landscape) ----------- */
 @media only screen
     and (min-device-width : 768px)
     and (max-device-width : 1024px) {
-/* STYLES GO HERE */
+
+    #bottom-bar {
+        padding: 30px 0 30px 0;
+    }
 }
  
 /* iPads (landscape) ----------- */
@@ -101,7 +103,11 @@ body {
     and (min-device-width : 768px)
     and (max-device-width : 1024px)
     and (orientation : portrait) {
-/* STYLES GO HERE */
+
+    #bottom-bar {
+        padding: 30px 0 30px 0;
+    }
+        
 }
  
 /* Desktops and laptops ----------- */
