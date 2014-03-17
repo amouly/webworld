@@ -661,6 +661,10 @@ p.home-introduction {
     color: #71b6d5;
 }
 
+#bottom-bar #col-newsletter p {
+    margin-bottom: 20px;
+}
+
 #bottom-bar #col-newsletter input {
     background: #172227;
     border: none;
@@ -669,6 +673,7 @@ p.home-introduction {
 }
 
 #bottom-bar #col-newsletter button {
+    margin: 0;
     background: #71b6d5;
     color: #fff;
     border: none;
