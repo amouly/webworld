@@ -215,7 +215,7 @@ body {
         
     /* Customized home boxes */
     .boxes-container .box-container {
-        width: 350px;
+        width: auto;
         margin: auto;
     }
         
