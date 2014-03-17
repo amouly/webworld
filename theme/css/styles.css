@@ -653,6 +653,24 @@ div#footer > .container {
     font-size: 25px;
 }
 
+.contacts-container .contact-container {
+
+}
+
+.contacts-container .contact-container > h2 {
+    color: #484848;
+    font-family: openSansBold;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contacts-container .contact-container > p {
+    color: #7c7770;
+    font-family: openSansRegular;
+    font-size: 13.5px;
+    text-align: center;
+}
+
 .contacts-container .badge-container > span{
     line-height: 2.5;
     font-size: 25px;
@@ -784,7 +802,7 @@ div#footer > .container {
     padding: 15px;
 }
 
-.project-content > .project-header {
+.project-content .project-header {
     font-family: openSansRegular;
     font-size: 18px;
     text-align: center;
@@ -793,7 +811,7 @@ div#footer > .container {
     margin: 4px 0;
 }
 
-.project-content > p {
+.project-content p {
     font-family: openSansRegular;
     font-size: 13px;
     text-align: center;
@@ -801,6 +819,7 @@ div#footer > .container {
     display: block;
     text-transform: uppercase;
 }
+
 
 /* SEPARATOR HR LATERALBAR */
 .lateral-bar div.hr-short {
