@@ -98,6 +98,11 @@ body {
     #bottom-bar {
         padding: 30px 0 30px 0;
     }
+        
+    .carousel-caption > h1 {
+        font-family: openSansRegular;
+        font-size: 43px;
+    }
 }
  
 /* iPads (landscape) ----------- */
@@ -174,7 +179,12 @@ body {
         
     #bottom-bar #col-tweets {
         display: none;
-    }  
+    }
+
+    .carousel-caption > h1 {
+        font-family: openSansRegular;
+        font-size: 43px;
+    }
 }
  
 /* iPhone 5 (landscape)----------- */
