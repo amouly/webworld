@@ -3,8 +3,12 @@
 /* Padding below the footer and lighter body text */
 
 body {
-  background-color: #fff;
-  color: #5a5a5a;
+    background-color: #fff;
+    color: #5a5a5a;
+}
+
+.fa-bars {
+    color: #fff;
 }
 
 /* DEDICATED FONTS
