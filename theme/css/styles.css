@@ -822,8 +822,8 @@ div#footer > .container {
 }
 
 /* Specific styles for mobile */
-#contacts-container col-sm-6,
-#contacts-container col-xs-12 {
+#contacts-container .col-sm-6,
+#contacts-container .col-xs-12 {
     margin-bottom: 20px;
 }
 
