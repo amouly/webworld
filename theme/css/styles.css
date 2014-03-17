@@ -207,6 +207,14 @@ body {
     and (max-device-width : 568px)
     and (orientation : portrait) {
 
+    #features-container {
+        display: none;
+    }
+    
+    #projects-container {
+        display: none;
+    }
+
     /* Customized navbar */
     .navbar-wrapper .navbar {
         background-color: #273a43;
