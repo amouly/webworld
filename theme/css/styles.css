@@ -57,7 +57,11 @@ body {
 
 /* For mobile browsers smaller than 480px; (iPhone) */
 @media only screen and (max-device-width:480px){
-  
+    
+    /* Customized navbar*/
+    .navbar-wrapper .navbar {
+        background-color: #273a43;
+}
 }
 
 /* Default iPad screens */
@@ -255,7 +259,7 @@ body {
     height: 100%;
     color: #fff;
     text-align: center;
-    padding-top: 5.5em;
+    padding-top: 30%;
     border-radius: 5px;
 }
 
