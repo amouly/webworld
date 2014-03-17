@@ -122,7 +122,7 @@ body {
  
 /* Desktops and laptops ----------- */
 @media only screen
-    and (min-width : 1224px) {
+    and (min-width : 768px) {
 
     #bottom-bar {
         padding: 70px 0 60px 0;
