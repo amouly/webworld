@@ -780,11 +780,11 @@ div#footer > .container {
 
 
 /* Project Styles */
-.project-header {
+.project-content .project-header {
     padding: 15px;
 }
 
-.project-header > h2 {
+.project-content > .project-header {
     font-family: openSansRegular;
     font-size: 18px;
     text-align: center;
@@ -793,7 +793,7 @@ div#footer > .container {
     margin: 4px 0;
 }
 
-.project-header > span {
+.project-content > p {
     font-family: openSansRegular;
     font-size: 13px;
     text-align: center;
@@ -801,10 +801,6 @@ div#footer > .container {
     display: block;
     text-transform: uppercase;
 }
-.lateral-bar .item-lateral-bar {
-    
-}
-
 
 /* SEPARATOR HR LATERALBAR */
 .lateral-bar div.hr-short {
