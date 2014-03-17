@@ -54,6 +54,11 @@ body {
         width: 350px;
         margin: auto;
     }
+        
+    .carousel-caption > h1 {
+        font-family: openSansRegular;
+        font-size: 43px;
+    }
 }
  
 /* Smartphones (landscape) ----------- */
