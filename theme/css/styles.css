@@ -60,17 +60,6 @@ body {
 @media only screen
     and (min-width : 321px) {
         
-    /* Customized navbar */
-    .navbar-wrapper .navbar {
-        background-color: #273a43;
-        border: none;
-    }
-        
-    /* Customized home boxes */
-    .boxes-container .box-container {
-        width: 350px;
-        margin: auto;
-    }
 }
  
 /* Smartphones (portrait) ----------- */
