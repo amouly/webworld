@@ -126,6 +126,10 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px) {
 
+    #bottom-bar #col-company .logo {
+        text-align: center;
+    }
+        
     #bottom-bar #col-company p {
         display: none;
     }
@@ -133,6 +137,10 @@ body {
     #bottom-bar #col-contact .header,
     #bottom-bar #col-contact p {
         display: none;
+    }
+        
+    #bottom-bar #col-contact ul.contact-data {
+        margin-bottom: 25px;
     }
         
     #bottom-bar #col-tweets {
