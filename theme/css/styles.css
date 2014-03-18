@@ -689,6 +689,12 @@ p.home-introduction {
 #header.home {
 }
 
+#header.contact {
+    text-align: center;
+    padding-top: 180px;
+    color: #fff;
+}
+
 #header.contact h1 {
     font: 40px openSansBold;
 }
