@@ -20,5 +20,14 @@ var isMobile = {
 };
 
 if(isMobile.any()) {
-   alert();
+   
+    var hrElement = $(".hr-large");
+    var divElement = hrElement.val("rel");
+    
+    alert(divElement);
+    
+    $(hrElement).on("click", function() {
+        alert();
+    });
+    
 }
