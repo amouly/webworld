@@ -587,6 +587,10 @@ p.home-introduction {
 }
 
 /* Testimonials subsection */
+#testimonials-container {
+    position: static;
+}
+
 #testimonials-container > .carousel-indicators {
     position: static;
     padding: 0;
