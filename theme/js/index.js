@@ -24,7 +24,7 @@ if(isMobile.any()) {
     var hrElement = $(".hr-large");
     var divElement = hrElement.val("rel");
     
-    $(hrElement).on("click", function() {
+    hrElement.on("click", function() {
         $(divElement).addClass("show-element");
     });
     
