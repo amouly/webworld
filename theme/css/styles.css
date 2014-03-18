@@ -58,7 +58,12 @@ body {
         width: 350px;
         margin: auto;
     }
-        
+
+    /* Carousel in Header */
+    .carousel-caption {
+        margin-top: 150px;
+    }
+
     .carousel-caption > h1 {
         font: 43px openSansRegular;
     }
@@ -190,7 +195,11 @@ body {
     and (max-device-width : 568px) {
 
         
-    /* Carousel */
+    /* Carousel in Header */
+    .carousel-caption {
+        margin-top: 150px;
+    }
+        
     .carousel-caption > h1 {
         font: 25px openSansRegular;
     }
