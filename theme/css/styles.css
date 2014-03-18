@@ -1138,3 +1138,7 @@ div#footer > .container {
 .feature-container p {
     font: 13.5px openSansRegular;
 }
+
+#main-container .show-element {
+    display: block;
+}
