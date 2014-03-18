@@ -720,8 +720,7 @@ p.home-introduction {
 
 #bottom-bar ul.contact-data > li {
     color: #fff;
-    font-family: openSansRegular;
-    font-size: 13.5px;
+    font: 13.5px openSansRegular;
     margin-bottom: 10px;
     vertical-align: top;
 }
@@ -735,22 +734,19 @@ p.home-introduction {
 }
 
 #bottom-bar .logo {
-    font-family: pacificoFont;
-    font-size: 22px;
+    font: 22px pacificoFont;
     color: #fff;
     display: block;
     margin-bottom: 20px;
 }
 
 #bottom-bar p {
-    font-family: openSansRegular;
-    font-size: 13.5px;
+    font: 13.5px openSansRegular;
     color: #c3c3c3;
 }
 
 #bottom-bar span.header {
-    font-family: openSansRegular;
-    font-size: 20px;
+    font: 20px openSansRegular;
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 30px;
@@ -770,8 +766,7 @@ p.home-introduction {
 #bottom-bar blockquote p {
     border-left: none;
     color: #c4c4c4;
-    font-family: openSansRegular;
-    font-size: 13.5px;
+    font: 13.5px openSansRegular;
     line-height: 20px;
     padding-top: 0;
     padding-bottom: 0;
