@@ -61,7 +61,7 @@ body {
 
     /* Carousel in Header */
     .carousel-caption {
-        margin-top: 150px;
+        margin-top: 100px;
     }
 
     .carousel-caption > h1 {
@@ -112,12 +112,16 @@ body {
     #bottom-bar {
         padding: 30px 0 30px 0;
     }
+
+    /* Carousel in Header */
+    .carousel-caption {
+        margin-top: 180px;
+    }
         
     .carousel-caption > h1 {
         font: 43px openSansRegular;
     }
-        
-    /* Carousel */
+    
     .carousel-caption > h1 {
         font: 30px openSansBold;
     }
@@ -173,6 +177,13 @@ body {
         border: 0;
         margin: 100px 0;
     }
+
+    /* Carousel in Header */
+    .carousel-caption {
+        z-index: 10;
+        margin-top: 200px;
+        position: static;
+    }
         
     .carousel-caption > h1 {
         font: 43px openSansBold;
@@ -197,7 +208,7 @@ body {
         
     /* Carousel in Header */
     .carousel-caption {
-        margin-top: 150px;
+        margin-top: 100px;
     }
         
     .carousel-caption > h1 {
@@ -382,10 +393,10 @@ body {
     height: 560px;
     margin-bottom: 60px;
 }
+
 /* Carousel in Header */
 .carousel-caption {
     z-index: 10;
-    margin-top: 200px;
     position: static;
 }
 
