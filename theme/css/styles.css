@@ -47,6 +47,10 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 480px) {
 
+    #header.contact {
+        padding-top: 120px;
+    }        
+
     /* Customized navbar */
     .navbar-wrapper .navbar {
         background-color: #273a43;
@@ -97,6 +101,10 @@ body {
     and (min-device-width : 768px)
     and (max-device-width : 1024px) {
 
+    #header.contact {
+        padding-top: 180px;
+    }         
+    
     /* Customized home boxes */
     .boxes-container .box-container {
         width: 350px;
@@ -160,6 +168,10 @@ body {
 @media only screen
     and (min-width : 768px) {
 
+    #header.contact {
+        padding-top: 180px;
+    }         
+
     #bottom-bar {
         padding: 70px 0 60px 0;
     }
@@ -205,7 +217,10 @@ body {
     and (min-device-width : 320px)
     and (max-device-width : 568px) {
 
-        
+    #header.contact {
+        padding-top: 120px;
+    } 
+
     /* Carousel in Header */
     .carousel-caption {
         margin-top: 100px;
@@ -676,7 +691,6 @@ p.home-introduction {
 
 #header.contact {
     text-align: center;
-    padding-top: 180px;
     color: #fff;
 }
 
