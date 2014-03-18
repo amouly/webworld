@@ -24,7 +24,7 @@ if(isMobile.any()) {
     $(".hr-large").on("click", function() {
         var divElement = $(this).attr("rel");
         
-        $(divElement).addClass("show-element");
+        $(divElement).toggle("fast");
     });
     
 }
