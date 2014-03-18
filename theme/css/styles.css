@@ -1154,7 +1154,8 @@ input[type=checkbox] {
    top: -9999px;
    left: -9999px;
 }
-label { 
+
+label.hr-large { 
     -webkit-appearance: push-button;
     -moz-appearance: button; 
     display: inline-block;
