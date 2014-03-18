@@ -1157,7 +1157,7 @@ label.hr-large {
     -webkit-appearance: push-button;
     -moz-appearance: button; 
     display: inline-block;
-    margin: 60px 0 10px 0;
+    width: 100%;
     cursor: pointer;
 }
 
