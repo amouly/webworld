@@ -332,6 +332,7 @@ body {
     color: #fff;
     font: 30px pacificoFont;
     margin: 0;
+    float: none;
 }
 
 .navbar-nav>li>a {
