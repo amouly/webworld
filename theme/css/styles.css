@@ -587,7 +587,6 @@ p.home-introduction {
 }
 
 /* Testimonials subsection */
-
 #testimonials-container > .carousel-indicators {
     position: static;
     padding: 0;
@@ -607,13 +606,13 @@ p.home-introduction {
     text-shadow: none;
 }
 
-.testimonial-item blockquote {
+#testimonials-container .item > blockquote {
     border: 0;
     margin: 0;
     padding: 10px;
 }
 
-.testimonial-item blockquote p {
+#testimonials-container .item p {
     font-family: openSansRegular;
     font-size: 18px;
     color: #575757;
@@ -622,7 +621,7 @@ p.home-introduction {
 }
 
 /* Blockquote icon on left */
-.testimonial-item blockquote p:before {
+#testimonials-container .item p:before {
     content: "\f10d"; 
     font-family: FontAwesome;
     margin-right: 10px;
@@ -630,14 +629,14 @@ p.home-introduction {
 }
 
 /* Blockquote icon on right */
-.testimonial-item blockquote p:after {
+#testimonials-container .item p:after {
     content: "\f10e"; 
     font-family: FontAwesome;
     margin-left: 10px;
     color: #71b6d5;
 }
 
-.testimonial-item span {
+#testimonials-container .item span {
     display: block;
     font-family: openSansRegular;
     font-size: 15px;
@@ -649,7 +648,7 @@ p.home-introduction {
     padding-top: 20px;
 }
 
-.testimonial-item span > b {
+#testimonials-container .item span > b {
     font-family: openSansBold;
 }
 
