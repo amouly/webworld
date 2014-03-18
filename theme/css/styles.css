@@ -689,6 +689,14 @@ p.home-introduction {
 #header.home {
 }
 
+#header.contact h1 {
+    font: 40px openSansBold;
+}
+
+#header.contact p {
+    font: 22px openSansRegular;
+}
+
 /* BOTTOM BAR
 -------------------------------------------------- */
 
@@ -867,6 +875,7 @@ div#footer > .container {
     height: 100%;
 }
 
+/* Contacts subsection */
 .contacts-container .badge-container {
    -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
@@ -1134,7 +1143,6 @@ div#footer > .container {
     vertical-align: middle;
 }
 
-
 .feature-container h2 {
     font-family: openSansSemiBold;
     font-size: 20px;
@@ -1144,7 +1152,3 @@ div#footer > .container {
     font-family: openSansRegular;
     font-size: 13.5px;
 }
-
-
-
-
