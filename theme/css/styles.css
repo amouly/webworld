@@ -379,7 +379,7 @@ body {
 -------------------------------------------------- */
 
 /* Carousel base class */
-#header .carousel {
+#header.carousel {
     height: 560px;
     margin-bottom: 60px;
 }
@@ -591,7 +591,7 @@ p.home-introduction {
 #testimonials-container > .carousel-indicators {
     position: static;
     padding: 0;
-    margin: 0;
+    margin: auto;
     
 }
 
@@ -600,9 +600,10 @@ p.home-introduction {
 }
 
 #testimonials-container > .carousel-indicators li {
+    background-color: #e1e1e1;
 }
 
-#testimonials-container > .carousel-caption {
+#testimonials-container .carousel-caption {
     text-shadow: none;
 }
 
