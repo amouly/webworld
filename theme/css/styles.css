@@ -1163,16 +1163,18 @@ label {
 }
 
 /* Default State */
-div {
+#test {
     background: green;
     width: 400px;
     height: 100px;
+    display: none;
     line-height: 100px;
     color: white;
     text-align: center;
+    display: none;
 }
 
 /* Toggled State */
-input[type=checkbox]:checked ~ div {
+input[type=checkbox]:checked ~ #test {
     display: block;
 }
