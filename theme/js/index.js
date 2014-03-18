@@ -1,3 +1,4 @@
+/* Detecting mobile devices */
 var isMobile = {
     Android: function() {
         return navigator.userAgent.match(/Android/i);
@@ -19,12 +20,11 @@ var isMobile = {
     }
 };
 
+/* Toggle on divisors for mobile */
 if(isMobile.any()) {
-
     $(".hr-large").on("click", function() {
         var divElement = $(this).attr("rel");
         
         $(divElement).toggle("fast");
     });
-    
 }
