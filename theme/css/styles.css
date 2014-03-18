@@ -324,14 +324,14 @@ body {
 }
 
 .navbar-wrapper .navbar {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .navbar-wrapper .navbar-brand {
     color: #fff;
     font: 30px pacificoFont;
-    margin-top: 6px;
+    margin: 0;
 }
 
 .navbar-nav>li>a {
